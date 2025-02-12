@@ -12,14 +12,17 @@
     margin: 0;
     font-size: 35px;
     height: 100%;
+    color: #D21F3C;
 }
 
 body{
     background: linear-gradient(#FFB6C1, #FFE5B4);
+    
 }
 
 button{
     font-family: quicksand, sans-serif;
+    
 }
 
 #container{
@@ -62,6 +65,7 @@ button{
     border-radius: 5px;
     padding: 10px 20px;
     font-size: 20px;
+    
 }
 
 #noBtn{
