@@ -3,7 +3,7 @@
 const container = document.getElementById('container');
 const noBtn = document.getElementById('noBtn');
 const yesBtn = document.getElementById('yesBtn');
-
+const deniedSound = document.getElementById('denied');
 const jsConfetti = new JSConfetti()
 
 
@@ -15,6 +15,8 @@ function randomChange() {
     j = Math.floor(Math.random() * (containerHeight - noBtnHeight)) + 1;
     noBtn.style.left = i + "px";
     noBtn.style.top = j + "px";
+    deniedSound.currentTime = 0;
+    deniedSound.play();
 }
 
 function congrats() {
