@@ -4,6 +4,7 @@ const container = document.getElementById('container');
 const noBtn = document.getElementById('noBtn');
 const yesBtn = document.getElementById('yesBtn');
 const deniedSound = document.getElementById('denied');
+const george = document.getElementById('george');
 const jsConfetti = new JSConfetti()
 
 
@@ -23,6 +24,7 @@ function congrats() {
     jsConfetti.addConfetti({
         emojis: ['❤️','💝','🩷','❤']
     })
+    george.play();
 }
 
 noBtn.addEventListener("click", randomChange);
