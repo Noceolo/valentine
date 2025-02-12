@@ -1,7 +1,21 @@
+@font-face {
+    font-family: lobster;
+    src: url(Lobster\,Quicksand/Lobster/Lobster-Regular.ttf);
+}
+
+@font-face {
+    font-family: quicksand;
+    src: url(Lobster\,Quicksand/Quicksand/Quicksand-VariableFont_wght.ttf);
+}
+
 * {
     margin: 0;
     font-size: 35px;
     height: 100%;
+}
+
+button{
+    font-family: quicksand, sans-serif;
 }
 
 #container{
@@ -10,10 +24,13 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    background: linear-gradient(#FFB6C1, #FFE5B4);
 }
 
 #qstTitle{
     height: 50px;
+    margin: 20px;
+    font-family: lobster, sans-serif;
 }
 
 #btnContainer{
@@ -22,7 +39,6 @@
     align-items: center;
     height: 50px;
     width: 300px;
-
 }
 
 /* #qstTitle {
