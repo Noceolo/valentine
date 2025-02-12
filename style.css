@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    font-size: 35px;
+    height: 100%;
+}
+
+#container{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#qstTitle{
+    height: 50px;
+}
+
+#btnContainer{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 50px;
+    width: 300px;
+
+}
+
+/* #qstTitle {
+    position: absolute;
+    top: 35%;
+    left: 40%;
+}
+
+#yesBtn{
+    position: absolute;
+    top: 45%;
+    left: 40%;
+} */
+
+/* #noBtn{
+    position: absolute;
+    top: 45%;
+    left: 55%;
+
+} */
+
+button{
+    background-color: pink;
+    border-color: rgb(249, 142, 160);
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 20px;
+}
+
